@@ -1,30 +1,45 @@
 ﻿<Properties StartupConfiguration="{7AB6AD1A-AA78-4718-989E-6A58353B8A1D}|http">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.Api/Migrations/MySQLContextModelSnapshot.cs">
+  <MonoDevelop.Ide.ItemProperties.FrontEnd.EShop.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.Api/Controllers/ProductController.cs">
     <Files>
       <File FileName="EShop.Web/Controllers/HomeController.cs" />
       <File FileName="EShop.Web/Models/ErrorViewModel.cs" />
       <File FileName="EShop.Web/Views/Home/Index.cshtml" />
-      <File FileName="EShop.Api/appsettings.json" Line="3" Column="85" />
-      <File FileName="EShop.Api/Properties/launchSettings.json" Line="16" Column="26" />
-      <File FileName="EShop.Api/Model/Base/BaseEntity.cs" Line="15" Column="1" />
-      <File FileName="EShop.Api/Model/Context/MySQLContext.cs" Line="10" Column="45" />
-      <File FileName="EShop.Api/Program.cs" Line="13" Column="41" />
-      <File FileName="EShop.Api/Model/Product.cs" Line="31" Column="31" />
-      <File FileName="EShop.Api/Migrations/MySQLContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="EShop.Api/appsettings.json" />
+      <File FileName="EShop.Api/Properties/launchSettings.json" />
+      <File FileName="EShop.Api/Model/Base/BaseEntity.cs" Line="11" Column="17" />
+      <File FileName="EShop.Api/Model/Context/MySQLContext.cs" Line="19" Column="32" />
+      <File FileName="EShop.Api/Program.cs" Line="27" Column="69" />
+      <File FileName="EShop.Api/Model/Product.cs" Line="12" Column="13" />
+      <File FileName="EShop.Api/Migrations/MySQLContextModelSnapshot.cs" Line="20" Column="1" />
+      <File FileName="EShop.Api/Repository/IProductRepository.cs" Line="7" Column="19" />
+      <File FileName="EShop.Api/Data/ValueObjects/ProductVO.cs" Line="15" Column="1" />
+      <File FileName="EShop.Api/Config/MappingConfig.cs" Line="18" Column="4" />
+      <File FileName="EShop.Api/Repository/ProductRepository.cs" Line="63" Column="14" />
+      <File FileName="EShop.Api/Controllers/ProductController.cs" Line="28" Column="10" />
+      <File FileName="EShop.Api/Migrations/20230519174711_SeedsProductsData.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EShop" expanded="True">
             <Node name="Services" expanded="True">
-              <Node name="EShop.Api" expanded="True" selected="True">
-                <Node name="Migrations" expanded="True" />
+              <Node name="EShop.Api" expanded="True">
+                <Node name="Config" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="ProductController.cs" selected="True" />
+                </Node>
+                <Node name="Data" expanded="True">
+                  <Node name="ValueObjects" expanded="True" />
+                </Node>
+                <Node name="Migrations" expanded="True">
+                  <Node name="20230519174711_SeedsProductsData.cs" expanded="True" />
+                </Node>
                 <Node name="Model" expanded="True">
                   <Node name="Context" expanded="True" />
                 </Node>
-                <Node name="Properties" expanded="True" />
-                <Node name="appsettings.json" expanded="True" />
+                <Node name="Repository" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -32,11 +47,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FrontEnd.EShop.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.EShop.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Services.EShop.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

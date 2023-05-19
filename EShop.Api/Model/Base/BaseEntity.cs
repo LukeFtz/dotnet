@@ -8,7 +8,7 @@ namespace EShop.Api.Model.Base
 	{
 		[Key]
 		[Column("id")]
-		public long ID { get; set; }
+		public long Id { get; set; }
 
 		public BaseEntity()
 		{
