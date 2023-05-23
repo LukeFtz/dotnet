@@ -3,6 +3,7 @@ using AutoMapper;
 using EShop.Api.Data.ValueObjects;
 using EShop.Api.Model;
 using EShop.Api.Model.Context;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace EShop.Api.Repository
@@ -32,7 +33,7 @@ namespace EShop.Api.Repository
             return _mapper.Map<ProductVO>(product);
         }
 
-        public async Task<ProductVO> Create(ProductVO vo)
+        public async Task<ProductVO> Create([FromBody] ProductVO vo)
         {
             Product product = _mapper.Map<Product>(vo);
             _context.Products.Add(product);
@@ -41,7 +42,7 @@ namespace EShop.Api.Repository
         }
 
 
-        public async Task<ProductVO> Update(ProductVO vo)
+        public async Task<ProductVO> Update([FromBody] ProductVO vo)
         {
             Product product = _mapper.Map<Product>(vo);
             _context.Products.Update(product);

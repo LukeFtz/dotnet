@@ -8,7 +8,6 @@
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.RazorAssemblyInfo.cs
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/appsettings.Development.json
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/appsettings.json
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/Properties/._launchSettings.json
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/EShop.Web.staticwebassets.runtime.json
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/EShop.Web
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/EShop.Web.deps.json
