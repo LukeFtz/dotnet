@@ -25,7 +25,7 @@ namespace EShop.Web.Controllers
             return View(products);
         }
 
-        public IActionResult ProductCreate()
+        public async Task<IActionResult> ProductCreate()
         {
             return View();
         }
@@ -38,6 +38,39 @@ namespace EShop.Web.Controllers
                 var response = await _productservice.CreateProduct(model);
                 if (response != null) return RedirectToAction(nameof(ProductIndex));
             }
+            return View(model);
+        }
+
+        public async Task<IActionResult> ProductUpdate(long id)
+        {
+            var response = await _productservice.FindProductById(id);
+            if (response != null) return View(response);
+            return NotFound();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ProductUpdate(ProductModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var response = await _productservice.UpdateProduct(model);
+                if (response != null) return RedirectToAction(nameof(ProductIndex));
+            }
+            return View(model);
+        }
+
+        public async Task<IActionResult> ProductDelete(long id)
+        {
+            var response = await _productservice.FindProductById(id);
+            if (response != null) return View(response);
+            return NotFound();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ProductDelete(ProductModel model)
+        {
+            var response = await _productservice.DeleteProduct(model.ID);
+            if (response) return RedirectToAction(nameof(ProductIndex));
             return View(model);
         }
     }

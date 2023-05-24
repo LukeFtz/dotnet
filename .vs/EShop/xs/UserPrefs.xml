@@ -1,30 +1,42 @@
-﻿<Properties StartupConfiguration="{7AB6AD1A-AA78-4718-989E-6A58353B8A1D}|http">
-  <MultiItemStartupConfigurations />
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Services.EShop.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.Web/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.Web/Services/ProductService.cs">
     <Files>
       <File FileName="EShop.Web/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="EShop.Web/Models/ErrorViewModel.cs" />
-      <File FileName="EShop.Web/Views/Home/Index.cshtml" />
-      <File FileName="EShop.Api/appsettings.json" Line="1" Column="1" />
-      <File FileName="EShop.Api/Properties/launchSettings.json" Line="16" Column="26" />
+      <File FileName="EShop.Web/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="EShop.Web/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="EShop.Api/appsettings.json" />
+      <File FileName="EShop.Api/Properties/launchSettings.json" />
       <File FileName="EShop.Api/Model/Base/BaseEntity.cs" />
       <File FileName="EShop.Api/Model/Context/MySQLContext.cs" />
       <File FileName="EShop.Api/Program.cs" />
       <File FileName="EShop.Api/Model/Product.cs" Line="12" Column="13" />
       <File FileName="EShop.Api/Migrations/MySQLContextModelSnapshot.cs" />
-      <File FileName="EShop.Api/Repository/IProductRepository.cs" Line="7" Column="19" />
-      <File FileName="EShop.Api/Data/ValueObjects/ProductVO.cs" Line="9" Column="9" />
-      <File FileName="EShop.Api/Config/MappingConfig.cs" Line="20" Column="2" />
-      <File FileName="EShop.Api/Repository/ProductRepository.cs" Line="63" Column="14" />
-      <File FileName="EShop.Api/Controllers/ProductController.cs" Line="11" Column="13" />
+      <File FileName="EShop.Api/Repository/IProductRepository.cs" />
+      <File FileName="EShop.Api/Data/ValueObjects/ProductVO.cs" />
+      <File FileName="EShop.Api/Config/MappingConfig.cs" />
+      <File FileName="EShop.Api/Repository/ProductRepository.cs" Line="48" Column="41" />
+      <File FileName="EShop.Api/Controllers/ProductController.cs" Line="43" Column="30" />
       <File FileName="EShop.Api/Migrations/20230519174711_SeedsProductsData.cs" />
-      <File FileName="EShop.Web/appsettings.json" Line="9" Column="3" />
-      <File FileName="EShop.Web/Models/ProductModel.cs" Line="12" Column="3" />
-      <File FileName="EShop.Web/Services/IServices/IProductService.cs" Line="15" Column="1" />
-      <File FileName="EShop.Web/Utils/HttpClientExtention.cs" Line="7" Column="29" />
-      <File FileName="EShop.Web/Services/ProductService.cs" Line="42" Column="10" />
-      <File FileName="EShop.Web/Program.cs" Line="29" Column="1" />
+      <File FileName="EShop.Web/appsettings.json" Line="14" Column="1" />
+      <File FileName="EShop.Web/Models/ProductModel.cs" Line="2" Column="11" />
+      <File FileName="EShop.Web/Services/IServices/IProductService.cs" Line="9" Column="36" />
+      <File FileName="EShop.Web/Services/ProductService.cs" Line="33" Column="22" />
+      <File FileName="EShop.Web/Program.cs" Line="7" Column="63" />
+      <File FileName="EShop.Web/Views/Shared/_Layout.cshtml" Line="27" Column="94" />
+      <File FileName="EShop.Web/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="EShop.Web/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="EShop.Web/Properties/launchSettings.json" Line="14" Column="49" />
+      <File FileName="EShop.Web/Controllers/ProductController.cs" Line="39" Column="82" />
+      <File FileName="EShop.Web/Views/Product/ProductIndex.cshtml" Line="48" Column="29" />
+      <File FileName="EShop.Web/Views/Product/ProductCreate.cshtml" Line="25" Column="11" />
+      <File FileName="EShop.Web/Utils/HttpClientExtentions.cs" Line="24" Column="32" />
+      <File FileName="EShop.Web/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="EShop.Web/Views/Home/Privacy.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,10 +46,23 @@
               <Node name="EShop.Web" expanded="True">
                 <Node name="Controllers" expanded="True" />
                 <Node name="Models" expanded="True" />
+                <Node name="Properties" expanded="True" />
                 <Node name="Services" expanded="True">
                   <Node name="IServices" expanded="True" />
                 </Node>
                 <Node name="Utils" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True" />
+                  <Node name="Product" expanded="True" />
+                  <Node name="Shared" expanded="True" />
+                </Node>
+                <Node name="wwwroot" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Services" expanded="True">
+              <Node name="EShop.Api" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Repository" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -45,10 +70,14 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.FrontEnd.EShop.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{7AB6AD1A-AA78-4718-989E-6A58353B8A1D}" ItemName="EShop.Api" ConfigurationId="http" />
+        <StartupItem ItemId="{4EE6FDF2-E7F8-43CB-8397-746291047CC0}" ItemName="EShop.Web" ConfigurationId="http" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

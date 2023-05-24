@@ -1,6 +1,7 @@
 ﻿@model EShop.Web.Models.ProductModel
 
-<form asp-action="ProductCreate">
+<form asp-action="ProductUpdate">
+    <input asp-for="ID" hidden>
     <br />
     <div class="container border p-3">
         <h1 class="text-primary">Create Product</h1>
@@ -50,7 +51,7 @@
             </div>
 
             <div class="col-5">
-                <input type="submit" value="Create" class="btn btn-success form-control" />
+                <input type="submit" value="Update" class="btn btn-success form-control" />
             </div>
         </div>
     </div>

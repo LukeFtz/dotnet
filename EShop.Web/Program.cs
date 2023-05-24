@@ -3,7 +3,6 @@ using EShop.Web.Services.IServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddHttpClient<IProductService, ProductService>(c =>
     c.BaseAddress = new Uri(builder.Configuration["ServicesUrls:ProductAPI"])
 );
