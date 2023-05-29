@@ -15,3 +15,87 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api
 build_property._RazorSourceGeneratorDebug = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Account/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvQWNjb3VudC9Mb2dnZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvQ29uc2VudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvRGV2aWNlL1N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Device/UserCodeCapture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvRGV2aWNlL1VzZXJDb2RlQ2FwdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Device/UserCodeConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvRGV2aWNlL1VzZXJDb2RlQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvRGlhZ25vc3RpY3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvR3JhbnRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Shared/Redirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvU2hhcmVkL1JlZGlyZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvU2hhcmVkL19OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Shared/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvU2hhcmVkL19TY29wZUxpc3RJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RVNob3AuSWRlbmRpdHlTZXJ2ZXIvVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2kvitw19lf

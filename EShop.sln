@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.Web", "EShop.Web\ESho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.Api", "EShop.Api\EShop.Api.csproj", "{7AB6AD1A-AA78-4718-989E-6A58353B8A1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.IdendityServer", "EShop.Api\EShop.IdendityServer\EShop.IdendityServer.csproj", "{671FA22E-457C-414B-AB44-A708C11FC475}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{7AB6AD1A-AA78-4718-989E-6A58353B8A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AB6AD1A-AA78-4718-989E-6A58353B8A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AB6AD1A-AA78-4718-989E-6A58353B8A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671FA22E-457C-414B-AB44-A708C11FC475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671FA22E-457C-414B-AB44-A708C11FC475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671FA22E-457C-414B-AB44-A708C11FC475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671FA22E-457C-414B-AB44-A708C11FC475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4EE6FDF2-E7F8-43CB-8397-746291047CC0} = {6AB736FF-59CD-47A9-A687-782257B202AF}
 		{7AB6AD1A-AA78-4718-989E-6A58353B8A1D} = {B3C744E3-A749-4F99-B864-2B1BB0CB8CD5}
+		{671FA22E-457C-414B-AB44-A708C11FC475} = {B3C744E3-A749-4F99-B864-2B1BB0CB8CD5}
 	EndGlobalSection
 EndGlobal

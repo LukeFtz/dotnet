@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w0GfhUzXEbKREFdYx73CKIFKPFZlZaOxYyjuFC7wKKe+1Lx6orJYMvk+NUKe2PAvA8fNujgZycbRpa5qSi9XXw==",
+  "dgSpecHash": "rkx/B9+JhWVF+voNv1Fhn20P06tHrUySkyBdCAoG0BMrECKPviNUxUy7ZjnBLyA7V+2jZ99VEfEATv52Vpxj0w==",
   "success": true,
   "projectFilePath": "/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.Api.csproj",
   "expectedPackageFiles": [

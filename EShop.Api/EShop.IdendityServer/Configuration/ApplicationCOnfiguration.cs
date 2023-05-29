@@ -1,0 +1,67 @@
+﻿using System;
+using Duende.IdentityServer;
+using Duende.IdentityServer.Models;
+
+namespace EShop.IdendityServer.Configuration
+{
+	public static class ApplicationConfiguration
+	{
+        public const string ADMIN = "ADMIN";
+        public const string CUSTUMER = "CUSTUMER";
+
+        public static IEnumerable<IdentityResource> IdentityResources =>
+            new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Email(),
+                new IdentityResources.Profile(),
+            };
+
+        public static IEnumerable<ApiScope> ApiScopes =>
+            new List<ApiScope>
+            {
+                new ApiScope("EShop", "EShop Server"),
+                new ApiScope(name: "read", "Read data."),
+                new ApiScope(name: "write", "Write data."),
+                new ApiScope(name: "delete", "Delete data."),
+            };
+
+        public static IEnumerable<Client> Clients =>
+            new List<Client>
+            {
+                // machine to machine client (from quickstart 1)
+                new Client
+                {
+                    ClientId = "client",
+                    ClientSecrets = { new Secret("key_to_encript".Sha256()) },
+
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    // scopes that client has access to
+                    AllowedScopes = { "read", "write", "profile"}
+                },
+                // interactive ASP.NET Core Web App
+                new Client
+                {
+                    ClientId = "Eshop",
+                    ClientSecrets = { new Secret("key_to_encript_EShop".Sha256()) },
+
+                    AllowedGrantTypes = GrantTypes.Code,
+            
+                    // where to redirect to after login
+                    RedirectUris = { "https://localhost:1614/signin-oidc" },
+
+                    // where to redirect to after logout
+                    PostLogoutRedirectUris = { "https://localhost:1614/signout-callback-oidc" },
+
+                    AllowedScopes = new List<string>
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "EShop"
+                    }
+                }
+            };
+    }
+}
+
