@@ -7,7 +7,7 @@ namespace EShop.IdendityServer.Configuration
 	public static class ApplicationConfiguration
 	{
         public const string ADMIN = "ADMIN";
-        public const string CUSTUMER = "CUSTUMER";
+        public const string CLIENT = "CLIENT";
 
         public static IEnumerable<IdentityResource> IdentityResources =>
             new List<IdentityResource>
@@ -48,10 +48,10 @@ namespace EShop.IdendityServer.Configuration
                     AllowedGrantTypes = GrantTypes.Code,
             
                     // where to redirect to after login
-                    RedirectUris = { "https://localhost:1614/signin-oidc" },
+                    RedirectUris = { "https://localhost:4430/signin-oidc" },
 
                     // where to redirect to after logout
-                    PostLogoutRedirectUris = { "https://localhost:1614/signout-callback-oidc" },
+                    PostLogoutRedirectUris = { "https://localhost:4430/signout-callback-oidc" },
 
                     AllowedScopes = new List<string>
                     {

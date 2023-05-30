@@ -1,9 +1,9 @@
 ﻿using EShop.IdendityServer.Model.Context;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using EShop.IdendityServer.Model;
 using EShop.IdendityServer.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +32,7 @@ var _builder = builder.Services.AddIdentityServer(options =>
     options.EmitStaticAudienceClaim = true;
 }).AddInMemoryIdentityResources(
         ApplicationConfiguration.IdentityResources)
+  .AddInMemoryApiScopes(ApplicationConfiguration.ApiScopes)
   .AddInMemoryClients(ApplicationConfiguration.Clients)
   .AddAspNetIdentity<ApplicationUser>();
 
@@ -44,6 +45,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();

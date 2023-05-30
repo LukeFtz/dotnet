@@ -1,10 +1,12 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity;
+
 namespace EShop.IdendityServer.Model
 {
-	public class ApplicationUser
+	public class ApplicationUser : IdentityUser
 	{
-		private string FirstName { get; set; }
-        private string LastName { get; set; }
+		public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }
 
