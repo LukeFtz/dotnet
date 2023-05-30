@@ -1,0 +1,9 @@
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.csproj.AssemblyReference.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.AssemblyInfoInputs.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.AssemblyInfo.cs
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.csproj.CoreCompileInputs.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.MvcApplicationPartsAssemblyInfo.cs
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.RazorAssemblyInfo.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/obj/Debug/net7.0/EShop.IdendityServer.RazorAssemblyInfo.cs

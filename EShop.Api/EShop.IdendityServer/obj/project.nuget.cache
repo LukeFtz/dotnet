@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7fCNdyVKc3vjT8+0gf4+JHLgllC/OTh97+W6s41+UAJsS2l1scFQwb/BmAssgh4gCdU6ONjLOAFWFcQq+vLsbQ==",
+  "dgSpecHash": "772O+8MaXOOzRAmdlcSo+8fg3ZqxjKu7PzIz/P6tIT0tpX+tmLu4M+WL6VGzyfC3Nqlecn9vMi7cF24dVdNzpg==",
   "success": true,
   "projectFilePath": "/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/EShop.IdendityServer/EShop.IdendityServer.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,8 @@
     "/Users/luke/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
     "/Users/luke/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "/Users/luke/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/Users/luke/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
+    "/Users/luke/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
     "/Users/luke/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],

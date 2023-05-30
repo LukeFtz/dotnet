@@ -1,11 +1,3 @@
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.csproj.AssemblyReference.cache
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.GeneratedMSBuildEditorConfig.editorconfig
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.AssemblyInfoInputs.cache
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.AssemblyInfo.cs
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.csproj.CoreCompileInputs.cache
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.MvcApplicationPartsAssemblyInfo.cache
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.RazorAssemblyInfo.cache
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.RazorAssemblyInfo.cs
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/appsettings.Development.json
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/appsettings.json
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/EShop.Web.staticwebassets.runtime.json
@@ -14,6 +6,14 @@
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/EShop.Web.runtimeconfig.json
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/EShop.Web.dll
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/EShop.Web.pdb
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.csproj.AssemblyReference.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.AssemblyInfoInputs.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.AssemblyInfo.cs
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.csproj.CoreCompileInputs.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.RazorAssemblyInfo.cache
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.RazorAssemblyInfo.cs
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/staticwebassets/msbuild.EShop.Web.Microsoft.AspNetCore.StaticWebAssets.props
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/staticwebassets/msbuild.build.EShop.Web.props
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.EShop.Web.props
