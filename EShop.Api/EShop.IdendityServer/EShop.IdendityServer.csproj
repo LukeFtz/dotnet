@@ -25,11 +25,13 @@
     <None Remove="MainModules\" />
     <None Remove="Model\Context\" />
     <None Remove="Configuration\" />
+    <None Remove="Initializer\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="MainModules\" />
     <Folder Include="Model\Context\" />
     <Folder Include="Configuration\" />
+    <Folder Include="Initializer\" />
   </ItemGroup>
 </Project>
