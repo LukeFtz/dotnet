@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using EShop.Web.Models;
 using EShop.Web.Services.IServices;
+using EShop.Web.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -31,6 +33,7 @@ namespace EShop.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> ProductCreate(ProductModel model)
         {
             if (ModelState.IsValid)
@@ -49,6 +52,7 @@ namespace EShop.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> ProductUpdate(ProductModel model)
         {
             if (ModelState.IsValid)
@@ -59,6 +63,7 @@ namespace EShop.Web.Controllers
             return View(model);
         }
 
+        [Authorize]
         public async Task<IActionResult> ProductDelete(long id)
         {
             var response = await _productservice.FindProductById(id);
@@ -67,6 +72,7 @@ namespace EShop.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = Role.ADMIN)]
         public async Task<IActionResult> ProductDelete(ProductModel model)
         {
             var response = await _productservice.DeleteProduct(model.ID);

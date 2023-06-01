@@ -41,6 +41,7 @@
     <None Remove="Config\" />
     <None Remove="Controllers\" />
     <None Remove="Migrations\" />
+    <None Remove="Utils\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
@@ -52,5 +53,6 @@
     <Folder Include="Config\" />
     <Folder Include="Controllers\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 </Project>
