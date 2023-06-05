@@ -12,7 +12,7 @@ build_property.RootNamespace = EShop.Web
 build_property.ProjectDir = /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web
 build_property._RazorSourceGeneratorDebug = 
 
@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/Views/Shared/_ValidationScriptsPartial.cshtml]

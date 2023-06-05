@@ -21,6 +21,7 @@ namespace EShop.Web.Controllers
             _productservice = productservice ?? throw new ArgumentNullException(nameof(productservice));
         }
 
+        [Authorize]
         public async Task<IActionResult> ProductIndex()
         {
             var products = await _productservice.FindAllProducts();
@@ -32,8 +33,8 @@ namespace EShop.Web.Controllers
             return View();
         }
 
-        [HttpPost]
         [Authorize]
+        [HttpPost]
         public async Task<IActionResult> ProductCreate(ProductModel model)
         {
             if (ModelState.IsValid)
@@ -51,8 +52,8 @@ namespace EShop.Web.Controllers
             return NotFound();
         }
 
-        [HttpPost]
         [Authorize]
+        [HttpPost]
         public async Task<IActionResult> ProductUpdate(ProductModel model)
         {
             if (ModelState.IsValid)
