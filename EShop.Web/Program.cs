@@ -20,7 +20,7 @@ builder.Services.AddAuthentication(options =>
         options.Authority = builder.Configuration["ServicesUrls:IdentityServer"];
         options.GetClaimsFromUserInfoEndpoint = true;
         options.ClientId = "EShop";
-        options.ClientSecret = "key_to_encript";
+        options.ClientSecret = "key_to_encript_EShop";
         options.ResponseType = "code";
         options.ClaimActions.MapJsonKey("role", "role", "role");
         options.ClaimActions.MapJsonKey("sub", "sub", "sub");

@@ -369,3 +369,4 @@
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/obj/Debug/net7.0/EShop.Web.csproj.CopyComplete
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/bin/Debug/net7.0/Properties/._launchSettings.json

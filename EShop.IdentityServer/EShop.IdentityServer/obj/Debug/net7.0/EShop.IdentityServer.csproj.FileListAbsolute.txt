@@ -60,3 +60,4 @@
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.IdentityServer/EShop.IdentityServer/obj/Debug/net7.0/EShop.IdentityServer.pdb
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.IdentityServer/EShop.IdentityServer/obj/Debug/net7.0/EShop.IdentityServer.genruntimeconfig.cache
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.IdentityServer/EShop.IdentityServer/obj/Debug/net7.0/ref/EShop.IdentityServer.dll
+/Volumes/Expansion/dotnet/Microservices/EShop/EShop.IdentityServer/EShop.IdentityServer/bin/Debug/net7.0/keys/is-signing-key-CB79D75B0F3604DC1192C9D4CD3C7A37.json
