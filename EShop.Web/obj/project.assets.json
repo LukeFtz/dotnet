@@ -249,7 +249,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.5": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
@@ -1247,10 +1247,10 @@
         "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.5": {
-      "sha512": "3OZFLu3vHUElFX0cq7A9hbtb6RPrtvZxCqKfzSKN5FydhOL5AfCYfdpN/LQsiqvg9hUWJrezMnc6qR013vJo7w==",
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.0": {
+      "sha512": "pAFncd2+yMmA0Z7QcFhf6xh6OxRwF2bi6PbAfXNGHEebf2tnJ4HkevQUGZlH6yTCu61TpsdNXLVsEnjbbDoH6A==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.5",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1260,7 +1260,7 @@
         "buildTransitive/net7.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
         "lib/net7.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
         "lib/net7.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
-        "microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
       ]
     },
@@ -2741,7 +2741,7 @@
     "net7.0": [
       "Microsoft.AspNetCore.Authentication >= 2.2.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 7.0.5",
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 7.0.5",
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.21355.2",
       "System.IdentityModel.Tokens.Jwt >= 6.30.1"
     ]
   },
@@ -2793,7 +2793,7 @@
           },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
-            "version": "[7.0.5, )"
+            "version": "[6.21355.2, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
@@ -2822,5 +2822,17 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EShop.Web depends on Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (>= 6.21355.2) but Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 6.21355.2 was not found. An approximate best match of Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 7.0.0 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

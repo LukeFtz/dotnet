@@ -42,8 +42,8 @@ namespace EShop.IdentityServer.Configuration
                 // interactive ASP.NET Core Web App
                 new Client
                 {
-                    ClientId = "Eshop",
-                    ClientSecrets = { new Secret("key_to_encript_EShop".Sha256()) },
+                    ClientId = "EShop_Web",
+                    ClientSecrets = { new Secret("key_to_encript".Sha256()) },
 
                     AllowedGrantTypes = GrantTypes.Code,
             
@@ -58,7 +58,9 @@ namespace EShop.IdentityServer.Configuration
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
-                        "EShop"
+                        "EShop",
+                        "read",
+                        "write"
                     }
                 }
             };

@@ -26,7 +26,7 @@ namespace EShop.IdentityServer.Initializer
 
         public void Initialize()
         {
-            if (_role.FindByNameAsync(ApplicationConfiguration.ADMIN) != null) return;
+            if (_role.FindByNameAsync(ApplicationConfiguration.ADMIN).Result != null) return;
             _role.CreateAsync(new IdentityRole(ApplicationConfiguration.ADMIN))
                 .GetAwaiter().GetResult();
             _role.CreateAsync(new IdentityRole(ApplicationConfiguration.CLIENT))
@@ -34,9 +34,10 @@ namespace EShop.IdentityServer.Initializer
 
             ApplicationUser admin = new ApplicationUser()
             {
+                UserName="Luke-admin",
                 FirstName = "Luke",
                 LastName = "Admin",
-                PhoneNumber = "6199999999",
+                PhoneNumber = "+55 (61) 99999999",
                 Email = "admin@exemple.com",
                 EmailConfirmed = true,
             };
@@ -53,9 +54,10 @@ namespace EShop.IdentityServer.Initializer
 
             ApplicationUser client = new ApplicationUser()
             {
+                UserName = "Luke-client",
                 FirstName = "Luke",
                 LastName = "Client",
-                PhoneNumber = "6199999999",
+                PhoneNumber = "+55 (61) 99999999",
                 Email = "client@exemple.com",
                 EmailConfirmed = true,
             };

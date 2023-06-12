@@ -122,9 +122,9 @@ namespace IdentityServerHost.Quickstart.UI
             {
                 // validate username/password against in-memory store
                 var result = await _signInManager.PasswordSignInAsync(model.Username,
-                                                                           model.Password,
-                                                                           model.RememberLogin,
-                                                                           lockoutOnFailure: false);
+                                                                      model.Password,
+                                                                      model.RememberLogin,
+                                                                      lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     var user = await _userManger.FindByNameAsync(model.Username);

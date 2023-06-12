@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OOqf54WxwjFDu08AqjFMzUtdviB9M/ghr8A68F4ymLF+IUmTGyjrKmvdokOVU3xAy//uiAIfOFwKEwT1wpXnAA==",
+  "dgSpecHash": "Y6rAANgVjN2N5pWKCsKZisTpzLgOfuaVepSJ7uIqs82aEFBPQaw2M/q9YtZKUS+MBeJjJDMATAAO2UayD63arg==",
   "success": true,
   "projectFilePath": "/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Web/EShop.Web.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "/Users/luke/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/6.0.0/microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
-    "/Users/luke/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.5/microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.5.nupkg.sha512",
+    "/Users/luke/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.0/microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.0/microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/microsoft.aspnetcore.webutilities/2.2.0/microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.2/microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
@@ -66,5 +66,16 @@
     "/Users/luke/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
     "/Users/luke/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EShop.Web depends on Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (>= 6.21355.2) but Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 6.21355.2 was not found. An approximate best match of Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 7.0.0 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

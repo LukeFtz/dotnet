@@ -37,7 +37,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication": "2.2.0",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "7.0.5",
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.5",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.30.1",
           "Microsoft.AspNetCore.Antiforgery": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "7.0.0.0",
@@ -453,7 +453,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.5": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.0",
@@ -461,8 +461,8 @@
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
-            "assemblyVersion": "7.0.5.0",
-            "fileVersion": "7.0.523.17410"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51819"
           }
         },
         "compile": {
@@ -2744,12 +2744,12 @@
       "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.0",
       "hashPath": "microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.5": {
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3OZFLu3vHUElFX0cq7A9hbtb6RPrtvZxCqKfzSKN5FydhOL5AfCYfdpN/LQsiqvg9hUWJrezMnc6qR013vJo7w==",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.5",
-      "hashPath": "microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.5.nupkg.sha512"
+      "sha512": "sha512-pAFncd2+yMmA0Z7QcFhf6xh6OxRwF2bi6PbAfXNGHEebf2tnJ4HkevQUGZlH6yTCu61TpsdNXLVsEnjbbDoH6A==",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.0",
+      "hashPath": "microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "type": "package",

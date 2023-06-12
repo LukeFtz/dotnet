@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.ItemProperties.Services.EShop.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.FrontEnd.EShop.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -10,35 +11,30 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FrontEnd.EShop.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.Web/Views/Shared/_LoginPartial.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Services.EShop.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.IdentityServer/EShop.IdentityServer/Configuration/ApplicationConfiguration.cs">
     <Files>
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Program.cs" Line="17" Column="44" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Model/Context/MySQLContext.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Model/ApplicationUser.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/MainModule/Home/HomeController.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Configuration/ApplicationConfiguration.cs" Line="23" Column="36" />
+      <File FileName="EShop.Web/Program.cs" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Configuration/ApplicationConfiguration.cs" Line="53" Column="4" />
+      <File FileName="EShop.Web/Utils/HttpClientExtentions.cs" />
+      <File FileName="EShop.Web/Utils/Role.cs" />
+      <File FileName="EShop.Web/Controllers/ProductController.cs" />
+      <File FileName="EShop.Web/Controllers/HomeController.cs" />
+      <File FileName="EShop.Web/Services/IServices/IProductService.cs" />
+      <File FileName="EShop.Web/Services/ProductService.cs" />
+      <File FileName="EShop.Web/appsettings.json" />
+      <File FileName="EShop.Web/Properties/launchSettings.json" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Properties/launchSettings.json" Line="21" Column="35" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Program.cs" />
+      <File FileName="EShop.Web/Views/Home/Index.cshtml" />
       <File FileName="EShop.IdentityServer/EShop.IdentityServer/Initializer/DbInitializer.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Initializer/IDbInitializer.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Models/ErrorViewModel.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Properties/launchSettings.json" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Views/_ViewImports.cshtml" />
-      <File FileName="EShop.Api/Model/Context/MySQLContext.cs" />
-      <File FileName="EShop.Web/Controllers/ProductController.cs" Line="67" Column="20" />
-      <File FileName="EShop.Web/Utils/Role.cs" Line="11" Column="1" />
-      <File FileName="EShop.Api/Utils/Role.cs" Line="1" Column="1" />
-      <File FileName="EShop.Api/Controllers/ProductController.cs" Line="31" Column="10" />
-      <File FileName="EShop.Web/Program.cs" Line="20" Column="29" />
-      <File FileName="EShop.Web/appsettings.json" Line="9" Column="3" />
-      <File FileName="EShop.Api/Program.cs" Line="58" Column="9" />
-      <File FileName="EShop.Api/appsettings.json" Line="11" Column="20" />
-      <File FileName="EShop.Web/Views/Shared/_LoginPartial.cshtml" Line="1" Column="22" />
-      <File FileName="EShop.Web/Views/Shared/_Layout.cshtml" Line="31" Column="23" />
-      <File FileName="EShop.Web/Controllers/HomeController.cs" Line="20" Column="6" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/keys/is-signing-key-CB79D75B0F3604DC1192C9D4CD3C7A37.json" />
+      <File FileName="EShop.Web/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/tempkey.jwk" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/appsettings.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -47,20 +43,18 @@
             <Node name="FrontEnd" expanded="True">
               <Node name="EShop.Web" expanded="True">
                 <Node name="Controllers" expanded="True" />
-                <Node name="Utils" expanded="True" />
+                <Node name="Properties" expanded="True" />
                 <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True" />
                   <Node name="Shared" expanded="True" />
                 </Node>
               </Node>
             </Node>
             <Node name="Services" expanded="True">
-              <Node name="EShop.Api" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Utils" expanded="True" />
-                <Node name="appsettings.json" expanded="True" />
-              </Node>
               <Node name="EShop.IdentityServer" expanded="True">
                 <Node name="Configuration" expanded="True" />
+                <Node name="Migrations" expanded="True" />
+                <Node name="Properties" expanded="True" />
               </Node>
             </Node>
           </Node>

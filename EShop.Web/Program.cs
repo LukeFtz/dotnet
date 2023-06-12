@@ -19,14 +19,22 @@ builder.Services.AddAuthentication(options =>
     {
         options.Authority = builder.Configuration["ServicesUrls:IdentityServer"];
         options.GetClaimsFromUserInfoEndpoint = true;
-        options.ClientId = "EShop";
-        options.ClientSecret = "key_to_encript_EShop";
+        options.ClientId = "EShop_Web";
+        options.ClientSecret = "key_to_encript";
         options.ResponseType = "code";
         options.ClaimActions.MapJsonKey("role", "role", "role");
         options.ClaimActions.MapJsonKey("sub", "sub", "sub");
         options.TokenValidationParameters.NameClaimType = "name";
         options.TokenValidationParameters.RoleClaimType = "role";
+
+        //options.Scope.Clear();
+
         options.Scope.Add("EShop");
+        //options.Scope.Add("OpenId");
+        //options.Scope.Add("Profile");
+        //options.Scope.Add("Email");
+
+
         options.SaveTokens = true;
     });
 
@@ -43,6 +51,8 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+
+//app.MapRazorPages().RequireAuthorization();
 
 app.MapControllerRoute(
     name: "default",
