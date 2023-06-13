@@ -51,4 +51,3 @@
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/obj/Debug/net7.0/EShop.Api.pdb
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/obj/Debug/net7.0/EShop.Api.genruntimeconfig.cache
 /Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/obj/Debug/net7.0/ref/EShop.Api.dll
-/Volumes/Expansion/dotnet/Microservices/EShop/EShop.Api/bin/Debug/net7.0/Properties/._launchSettings.json
