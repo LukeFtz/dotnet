@@ -13,6 +13,7 @@
     <None Remove="Initializer\" />
     <None Remove="Model\" />
     <None Remove="Migrations\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MainModule\" />
@@ -20,6 +21,7 @@
     <Folder Include="Initializer\" />
     <Folder Include="Model\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.3.2" />

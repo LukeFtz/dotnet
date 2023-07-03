@@ -5,6 +5,8 @@ using EShop.IdentityServer.Configuration;
 using EShop.IdentityServer.Initializer;
 using Microsoft.EntityFrameworkCore;
 using EShop.IdentityServer.Model.Context;
+using EShop.IdentityServer.Services;
+using Duende.IdentityServer.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +40,8 @@ var _builder = builder.Services.AddIdentityServer(options =>
   .AddAspNetIdentity<ApplicationUser>();
 
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+
+builder.Services.AddScoped<IProfileService, ProfileService>();
 
 _builder.AddDeveloperSigningCredential();
 
