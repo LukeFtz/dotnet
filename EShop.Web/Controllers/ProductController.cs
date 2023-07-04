@@ -22,7 +22,6 @@ namespace EShop.Web.Controllers
             _productservice = productservice ?? throw new ArgumentNullException(nameof(productservice));
         }
 
-        [Authorize]
         public async Task<IActionResult> ProductIndex()
         {
             var token = await HttpContext.GetTokenAsync("access_token");
