@@ -62,6 +62,29 @@ namespace EShop.IdentityServer.Configuration
                         "read",
                         "write"
                     }
+                },
+                new Client
+                {
+                    ClientId = "EShop_Web_React",
+                    ClientSecrets = { new Secret("key_to_encript".Sha256()) },
+
+                    AllowedGrantTypes = GrantTypes.Code,
+            
+                    // where to redirect to after login
+                    RedirectUris = { "https://localhost:4430/signin-oidc" },
+
+                    // where to redirect to after logout
+                    PostLogoutRedirectUris = { "https://localhost:4430/signout-callback-oidc" },
+
+                    AllowedScopes = new List<string>
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "EShop",
+                        "read",
+                        "write"
+                    }
                 }
             };
     }

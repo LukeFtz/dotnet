@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102mm"
+   height="86mm"
+   viewBox="0 0 102 86"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient177">
+      <stop
+         style="stop-color:#010101;stop-opacity:1;"
+         offset="0"
+         id="stop173" />
+      <stop
+         style="stop-color:#808080;stop-opacity:0;"
+         offset="1"
+         id="stop175" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient177"
+       id="linearGradient179"
+       x1="66.77536"
+       y1="136.04234"
+       x2="140.02893"
+       y2="136.04234"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-62.730812,-85.582751)" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:67.4759px;font-family:'.Geeza Pro PUA';-inkscape-font-specification:'.Geeza Pro PUA';text-align:center;text-anchor:middle;fill:#002d61;fill-opacity:1;stroke-width:0.337379"
+       x="17.634048"
+       y="48.825386"
+       id="text999"
+       transform="scale(1.0506188,0.95182001)"><tspan
+         id="tspan997"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.4759px;font-family:'.New York';-inkscape-font-specification:'.New York';fill:#002d61;fill-opacity:1;stroke-width:0.337379"
+         x="17.634048"
+         y="48.825386">E</tspan></text>
+    <circle
+       style="fill:url(#linearGradient179);fill-opacity:1;stroke-width:0.264583"
+       id="path111"
+       cx="35.189766"
+       cy="47.220486"
+       r="31.145224" />
+    <text
+       xml:space="preserve"
+       style="font-size:31.75px;font-family:'.Geeza Pro PUA';-inkscape-font-specification:'.Geeza Pro PUA';text-align:center;text-anchor:middle;fill:#ff7f2a;stroke-width:0.337379"
+       x="62.712807"
+       y="79.574135"
+       id="text999-4"
+       transform="scale(1.0506188,0.95182001)"><tspan
+         id="tspan997-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.75px;font-family:'.New York';-inkscape-font-specification:'.New York';fill:#070707;fill-opacity:1;stroke-width:0.337379"
+         x="62.712807"
+         y="79.574135">Shop</tspan></text>
+    <path
+       id="text2196"
+       style="font-size:67.4759px;font-family:'.Geeza Pro PUA';-inkscape-font-specification:'.Geeza Pro PUA';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.337379"
+       d="m 28.719905,16.780099 c -0.276923,1.33802 -0.622807,2.44575 -1.03818,3.32383 -0.415383,0.85716 -1.107657,1.50554 -2.076874,1.94458 -0.946145,0.43904 -2.365342,0.68969 -4.257622,0.75241 l -5.700952,0.20619 a 31.145223,31.145224 0 0 0 -0.380334,0.32711 l 6.081286,0.21963 c 1.89228,0.0627 3.311477,0.31337 4.257622,0.7524 0.969217,0.43904 1.661491,1.09752 2.076874,1.97559 0.415373,0.85717 0.761257,1.95481 1.03818,3.29283 h 0.03462 v -12.79457 z m -16.926615,9.98389 a 31.145223,31.145224 0 0 0 -6.9230942,13.92834 v 1.61438 c 0,0.89898 -0.115463,1.61002 -0.346232,2.13268 -0.0664,0.16041 -0.153726,0.30751 -0.257863,0.44442 a 31.145223,31.145224 0 0 0 -0.05581,1.49965 H 35.469877 l 0.761709,-11.10113 h -0.03462 c -0.484619,2.00702 -1.096068,3.67925 -1.834517,5.01726 -0.715376,1.31711 -1.661679,2.37332 -2.838583,3.16777 -1.153831,0.79445 -2.653863,1.37965 -4.499989,1.75596 -1.823055,0.37632 -4.084638,0.62697 -6.784602,0.75241 l -8.445988,0.37672 z" />
+  </g>
+</svg>
