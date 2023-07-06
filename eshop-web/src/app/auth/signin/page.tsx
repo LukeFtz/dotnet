@@ -1,5 +1,5 @@
 "use client";
-
+import { signIn } from "next-auth/react";
 import { useState } from "react";
 
 const Signin = () => {
@@ -16,7 +16,7 @@ const Signin = () => {
 
   return (
     <div className="text-black">
-      <form>
+      <form method="post" action="/api/auth/signin/credentials_api">
         <div className="">
           <label>Username </label>
           <input
@@ -39,9 +39,14 @@ const Signin = () => {
             // defaultValue={""}
           />
         </div>
-        <div className="button-container">
+        {/* <div className="button-container">
           <input type="submit" />
-        </div>
+        </div> */}
+        <button
+          onClick={() => signIn("credentials_api", { username, password })}
+        >
+          submit
+        </button>
       </form>
     </div>
   );
