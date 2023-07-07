@@ -7,26 +7,22 @@ import { UserToken } from "@/app/auth/utils/type";
 const handler = NextAuth({
   providers: [
     DuendeIDS6Provider({
-      clientId: process.env.IDENTITY_CLIENT_ID + "",
-      clientSecret: process.env.IDENTITY_CLIENT_SECRET + "",
-      authorization: { params: { scope: process.env.IDENTITY_SCOPE + "" } },
-      issuer: process.env.IDENTITY_HOST + "",
+      // clientId: process.env.IDENTITY_CLIENT_ID + "",
+      clientId: "EShop_Web_React",
+      // clientSecret: process.env.IDENTITY_CLIENT_SECRET + "",
+      clientSecret: "key_to_encript",
+      // authorization: { params: { scope: process.env.IDENTITY_SCOPE + "" } },
+      authorization: { params: { scope: "EShop" } },
+      // issuer: process.env.IDENTITY_HOST + "",
+      issuer: "https://localhost:4435/Account/Login",
       name: "duende",
+      id: "duende",
     }),
     CredentialsProvider({
-      name: "credentials_api",
-      credentials: {
-        username: {
-          label: "username",
-          name: "username",
-          type: "text",
-        },
-        password: {
-          label: "password",
-          name: "password",
-          type: "password",
-        },
-      },
+      id: "credentials_api",
+      name: "CredentialsApi",
+      type: "credentials",
+
       async authorize(credentials, req) {
         const user = await getUserToken(
           credentials?.username + "",
@@ -41,6 +37,10 @@ const handler = NextAuth({
 
           // You can also Reject this callback with an Error thus the user will be sent to the error page with the error message as a query parameter
         }
+      },
+      credentials: {
+        username: { label: "username", type: "text" },
+        password: { label: "password", type: "password" },
       },
     }),
   ],
@@ -58,10 +58,12 @@ const handler = NextAuth({
       return token;
     },
   },
-
-  pages: {
-    signIn: "/auth/signin",
+  session: {
+    strategy: "jwt",
   },
+  // pages: {
+  //   signIn: "/auth/signin",
+  // },
 });
 
 export { handler as GET, handler as POST };
