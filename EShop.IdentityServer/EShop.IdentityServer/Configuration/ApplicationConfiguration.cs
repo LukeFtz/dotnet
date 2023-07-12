@@ -68,18 +68,19 @@ namespace EShop.IdentityServer.Configuration
                     ClientId = "EShop_Web_React",
                     ClientSecrets = { new Secret("key_to_encript".Sha256()) },
 
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedGrantTypes = GrantTypes.Code,
 
-                    AllowAccessTokensViaBrowser =true,
-                    AllowOfflineAccess = true,
+                    //AllowAccessTokensViaBrowser =true,
+                    //AllowOfflineAccess = true,
+
                     // where to redirect to after login
                     //RedirectUris = { "https://localhost:4430/signin-oidc" },
                     // where to redirect to after logout
                     //PostLogoutRedirectUris = { "https://localhost:4430/signout-callback-oidc" },
 
-                    RedirectUris = { "http://localhost:3000/api/auth/signin/credentials" },
-                    PostLogoutRedirectUris = { "http://localhost:3000" },
-                    AllowedCorsOrigins= { "http://localhost:3000" },
+                    RedirectUris = { "https://localhost:3050/api/auth/signin", "http://localhost:3000/api/auth/signin" },
+                    PostLogoutRedirectUris = { "https://localhost:3050/signout-callback-oidc" },
+                    AllowedCorsOrigins= { "https://localhost:3050" },
 
                     AllowedScopes = new List<string>
                     {

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Navbar: React.FC = () => {
   const login = () => {
-    signIn("duende");
+    signIn("duende", { redirect: true });
   };
   return (
     <nav className="flex h-32 w-full bg-gradient-to-r from-cyan-500 to-blue-500 items-center justify-between text-white">
