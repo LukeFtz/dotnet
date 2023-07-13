@@ -1,6 +1,4 @@
-﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Services.EShop.IdentityServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties StartupConfiguration="{1F2C68B1-1724-4AEE-9B0D-E30B41926140}|http">
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -10,15 +8,23 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.FrontEnd.EShop.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>EShop.Api/EShop.IdendityServer/EShop.IdendityServer.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Services.EShop.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.IdentityServer/EShop.IdentityServer/Initializer/DbInitializer.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Services.EShop.IdentityServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EShop.IdentityServer/EShop.IdentityServer/Configuration/ApplicationConfiguration.cs">
     <Files>
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Configuration/ApplicationConfiguration.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Services/ProfileService.cs" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Configuration/ApplicationConfiguration.cs" Line="69" Column="65" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Services/ProfileService.cs" Line="38" Column="46" />
       <File FileName="EShop.IdentityServer/EShop.IdentityServer/MainModule/Account/AccountController.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Program.cs" />
-      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Initializer/DbInitializer.cs" Line="29" Column="1" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Program.cs" Line="1" Column="1" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Initializer/DbInitializer.cs" />
       <File FileName="EShop.Web/Controllers/HomeController.cs" />
       <File FileName="EShop.Web/Services/ProductService.cs" />
       <File FileName="EShop.Web/Services/IServices/IProductService.cs" />
@@ -38,7 +44,7 @@
       <File FileName="EShop.Api/Controllers/ProductController.cs" />
       <File FileName="EShop.Web/Views/Home/Details.cshtml" />
       <File FileName="EShop.Web/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="EShop.Web/Program.cs" />
+      <File FileName="EShop.Web/Program.cs" Line="1" Column="1" />
       <File FileName="EShop.IdentityServer/EShop.IdentityServer/Properties/launchSettings.json" />
       <File FileName="EShop.Api/Program.cs" />
       <File FileName="EShop.Api/Model/Product.cs" />
@@ -50,31 +56,34 @@
       <File FileName="EShop.IdentityServer/EShop.IdentityServer/Views/Account/AccessDenied.cshtml" />
       <File FileName="EShop.IdentityServer/EShop.IdentityServer/Views/Account/LoggedOut.cshtml" />
       <File FileName="EShop.IdentityServer/EShop.IdentityServer/Views/Account/Login.cshtml" />
+      <File FileName="EShop.Api/appsettings.json" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/appsettings.json" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/Initializer/IDbInitializer.cs" />
+      <File FileName="EShop.IdentityServer/EShop.IdentityServer/keys/is-signing-key-CB79D75B0F3604DC1192C9D4CD3C7A37.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EShop">
-            <Node name="FrontEnd" expanded="True" />
+            <Node name="FrontEnd" expanded="True">
+              <Node name="EShop.Web" expanded="True" />
+            </Node>
             <Node name="Services" expanded="True">
-              <Node name="EShop.IdentityServer" expanded="True">
-                <Node name="Configuration" expanded="True" />
-                <Node name="Initializer" expanded="True">
-                  <Node name="DbInitializer.cs" selected="True" />
+              <Node name="EShop.IdentityServer">
+                <Node name="Configuration" expanded="True">
+                  <Node name="ApplicationConfiguration.cs" selected="True" />
                 </Node>
-                <Node name="Properties" expanded="True" />
+                <Node name="keys" expanded="True" />
+                <Node name="Services" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Services.EShop.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <DisabledProjects>
-    <String>EShop.Api/EShop.IdendityServer/EShop.IdendityServer.csproj</String>
-  </DisabledProjects>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.FrontEnd.EShop.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

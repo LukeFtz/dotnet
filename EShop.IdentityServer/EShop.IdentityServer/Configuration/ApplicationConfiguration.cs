@@ -78,8 +78,8 @@ namespace EShop.IdentityServer.Configuration
                     // where to redirect to after logout
                     //PostLogoutRedirectUris = { "https://localhost:4430/signout-callback-oidc" },
 
-                    RedirectUris = { "https://localhost:3050/api/auth/signin", "http://localhost:3000/api/auth/signin" },
-                    PostLogoutRedirectUris = { "https://localhost:3050/signout-callback-oidc" },
+                    RedirectUris = { "https://localhost:3050/api/auth/callback/duende", "http://localhost:3000/api/auth/callback/duende" },
+                    PostLogoutRedirectUris = { "https://localhost:3050/api/auth/callback/duende" },
                     AllowedCorsOrigins= { "https://localhost:3050" },
 
                     AllowedScopes = new List<string>
