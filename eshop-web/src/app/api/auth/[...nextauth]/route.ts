@@ -24,17 +24,10 @@ const handler = NextAuth({
   ],
   callbacks: {
     async signIn({ user, account, profile, email, credentials }) {
-      // console.log(user, account, profile);
-      // console.debug(`signIn by user.id: ${user.name}`);
-      // console.log(user);
-
       if (user) {
         return true;
       } else {
-        // Return false to display a default error message
         return false;
-        // Or you can return a URL to redirect to:
-        // return '/unauthorized'
       }
     },
     async redirect({ url, baseUrl }) {
@@ -68,9 +61,6 @@ const handler = NextAuth({
   session: {
     strategy: "jwt",
   },
-  // pages: {
-  //   signIn: "/auth/signin",
-  // },
 });
 
 export { handler as GET, handler as POST };
