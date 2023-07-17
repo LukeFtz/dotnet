@@ -1,5 +1,6 @@
 import Navbar from "@/components/Common/Navbar";
 import FrontPage from "@/components/Home/FrontPage";
+import ProductList from "@/components/Home/ProductList";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       </div>
       <div className="w-full h-cut-nav">
         <FrontPage />
+      </div>
+      <div className="w-full">
+        <ProductList />
       </div>
     </main>
   );

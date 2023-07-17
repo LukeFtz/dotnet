@@ -2,6 +2,7 @@
 
 import { signIn, signOut, useSession } from "next-auth/react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
   const { data } = useSession();
@@ -9,10 +10,9 @@ const Navbar: React.FC = () => {
   const login = () => {
     signIn("duende", {
       redirect: true,
-      callbackUrl: "https://localhost:3050/",
+      // callbackUrl: "https://localhost:3050/",
     });
   };
-  console.log(data);
   return (
     <nav className="flex h-32 w-full bg-gradient-to-b from-navbar-blue to-transparent justify-center">
       <div
@@ -24,12 +24,12 @@ const Navbar: React.FC = () => {
         </div>
         {data && <div className="me-10">Hello,{data.user?.name}</div>}
         {/* <div className="me-10">Hello,</div> */}
-        <button
+        <Link
+          href="/admin/products"
           className="me-10 rounded bg-black rounded-full py-2 px-5 hover:bg-sky-800"
-          onClick={() => signOut()}
         >
           Products
-        </button>
+        </Link>
         <button
           className="me-10 rounded bg-black rounded-full py-2 px-5 hover:bg-emerald-800 "
           onClick={login}

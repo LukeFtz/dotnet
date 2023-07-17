@@ -9,6 +9,16 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var MyAllowedOrigins = "_myAllowedOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowedOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("https://localhost:3050");
+                      });
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -88,6 +98,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
+
+app.UseCors(MyAllowedOrigins);
+
 app.UseAuthentication();
 app.UseAuthorization();
 
