@@ -4,6 +4,7 @@ import { SessionProvider } from "next-auth/react";
 import type { AppProps } from "next/app";
 import { Session } from "next-auth";
 import { NextAuthProvider } from "./providers";
+import Navbar from "@/components/Common/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,7 +37,10 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
-        <NextAuthProvider>{children}</NextAuthProvider>
+        <NextAuthProvider>
+          <Navbar />
+          {children}
+        </NextAuthProvider>
       </body>
     </html>
   );

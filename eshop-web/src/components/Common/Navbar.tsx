@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
         <div className="ms-10">
           <Image src="/Geral/logo.svg" alt="logo" width={102} height={86} />
         </div>
-        {data && <div className="me-10">Hello,{data.user?.name}</div>}
+        {data && <div className="me-10">Hello, {data.user?.name}</div>}
         {/* <div className="me-10">Hello,</div> */}
         <Link
           href="/admin/products"

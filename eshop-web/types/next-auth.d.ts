@@ -19,3 +19,7 @@ declare module "next-auth" {
     phone_number: string;
   }
 }
+
+export interface roles {
+  role: "ADMIN" | "CLIENT";
+}

@@ -1,8 +1,8 @@
-import NextAuth, { User } from "next-auth";
+import NextAuth, { NextAuthOptions, User } from "next-auth";
 import DuendeIDS6Provider from "next-auth/providers/duende-identity-server6";
 import jwt_decode from "jwt-decode";
 
-const handler = NextAuth({
+export const authOptions: NextAuthOptions = {
   providers: [
     DuendeIDS6Provider({
       clientId: process.env.IDENTITY_CLIENT_ID + "",
@@ -59,6 +59,8 @@ const handler = NextAuth({
   session: {
     strategy: "jwt",
   },
-});
+};
+
+const handler = NextAuth(authOptions);
 
 export { handler as GET, handler as POST };
