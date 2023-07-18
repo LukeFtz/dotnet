@@ -4,13 +4,18 @@ import React, { useEffect, useState } from "react";
 import { getProductList } from "../../../utils/functions/requests";
 import { productListType } from "../../../types/product";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProductList: React.FC = () => {
   const [products, setProducts] = useState<productListType | null>(null);
 
   const requestProductData = async () => {
     const data = await getProductList();
-    setProducts(data);
+    if (data.length > 0) {
+      setProducts(data);
+    } else {
+      setProducts([]);
+    }
   };
 
   useEffect(() => {
@@ -58,9 +63,12 @@ const ProductList: React.FC = () => {
             <div className="bg-teal-600 p-5 text-2xl">
               R$: {(Math.round(product.price * 100) / 100).toFixed(2)}
             </div>
-            <button className="bg-gradient-to-r from-emerald-400 via-green-500 to-emerald-400 py-3 w-full">
+            <Link
+              href={"/products/details/" + product.id}
+              className="bg-gradient-to-r from-emerald-400 via-green-500 to-emerald-400 py-3 min-w-full"
+            >
               Details
-            </button>
+            </Link>
           </div>
         ))}
       </div>

@@ -45,6 +45,8 @@ export const authOptions: NextAuthOptions = {
       session.user.given_name = decoded.given_name;
       session.user.preferred_username = decoded.preferred_username;
       session.user.phone_number = decoded.phone_number;
+      session.user.role = decoded.role;
+      session.user.token = token.accessToken + "";
       return session;
     },
     async jwt({ token, user, account, profile }) {

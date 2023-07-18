@@ -7,3 +7,8 @@ export interface productType {
   imageUrl: string;
 }
 export interface productListType extends Array<productType> {}
+
+export interface serverProductDetails {
+  product: productType;
+  id: string;
+}
