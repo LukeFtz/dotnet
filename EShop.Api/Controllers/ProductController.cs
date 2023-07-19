@@ -31,7 +31,7 @@ namespace EShop.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize]
+        //[Authorize]
         public async Task<ActionResult<ProductVO>> FindById(long id)
         {
             var product = await _repository.FindById(id);
@@ -40,7 +40,7 @@ namespace EShop.Api.Controllers
         }
 
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = Role.ADMIN)]
         public async Task<ActionResult<ProductVO>> Create([FromBody] ProductVO vo)
         {
             if (vo == null) return BadRequest();
@@ -49,7 +49,7 @@ namespace EShop.Api.Controllers
         }
 
         [HttpPut]
-        [Authorize]
+        [Authorize(Roles = Role.ADMIN)]
         public async Task<ActionResult<ProductVO>> Update(int id, [FromBody] ProductVO vo)
         {
             if (vo == null) return BadRequest();

@@ -19,9 +19,9 @@ const Navbar: React.FC = () => {
         className="container flex items-center justify-between
                   text-white font-raleway text-base transition-colors duration-300 ease-in-out"
       >
-        <div className="ms-10">
+        <Link href="/" className="ms-10">
           <Image src="/Geral/logo.svg" alt="logo" width={102} height={86} />
-        </div>
+        </Link>
         {data && <div className="me-10">Hello, {data.user?.name}</div>}
         {/* <div className="me-10">Hello,</div> */}
         <Link

@@ -18,10 +18,16 @@ const getData = async () => {
 const Products = async () => {
   const data = await getData();
   return (
-    <main className="w-screen ">
+    <main className="w-screen">
       <div className="container mx-auto flex flex-col items-center">
         <div>
-          <Image src="/Geral/logo.svg" alt="logo" width={404} height={201} />
+          <Image
+            src="/Geral/logo.svg"
+            alt="logo"
+            width={404}
+            height={201}
+            layout="responsive"
+          />
         </div>
         <p className="font-raleway text-center text-xl mt-5">
           Managing Products

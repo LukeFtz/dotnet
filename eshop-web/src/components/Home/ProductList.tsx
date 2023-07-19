@@ -61,11 +61,11 @@ const ProductList: React.FC = () => {
               }}
             />
             <div className="bg-teal-600 p-5 text-2xl">
-              R$: {(Math.round(product.price * 100) / 100).toFixed(2)}
+              R$ {(Math.round(product.price * 100) / 100).toFixed(2)}
             </div>
             <Link
               href={"/products/details/" + product.id}
-              className="bg-gradient-to-r from-emerald-400 via-green-500 to-emerald-400 py-3 min-w-full"
+              className="bg-gradient-to-r from-emerald-400 via-green-500 to-emerald-400 py-3 w-full"
             >
               Details
             </Link>
